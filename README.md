@@ -16,5 +16,5 @@ Setup: i5-6300GQ CPU @ 2.30 Ghz, at 192 blocks view distance and at a field of v
 
 Results: 1ms or 1062 traces per frame
  
-<img src="/cullingOff.png" alt="culling off" width="400" align="left"/>
-<img src="/cullingOn.png" alt="culling on" width="400" align="left"/>
+<img src="https://raw.githubusercontent.com/tyronx/occlusionculling/master/cullingOff.png" alt="culling off" width="400" align="left"/>
+<img src="https://raw.githubusercontent.com/tyronx/occlusionculling/master/cullingOn.png" alt="culling on" width="400" align="left"/>
