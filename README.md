@@ -2,7 +2,7 @@
 
 This is a ray casting chunk culling system inspired by Tommos cave culling algorithm for minecraft (https://tomcc.github.io/index.html)
 It is essentially an ray-casting implementation of Tommos "Part 2" which avoids the underculling issues when using a Breadth-First search
-Several tricks are being employed to reduce the cost of ray casting
+Several tricks are being employed to reduce the cost of ray casting:
 
 - Instead of ray casting every loaded chunk, we only ray cast towards chunks at the very edge of the loaded area. This works because doing so we will visit all other chunks anyway
 - Skip every chunk outside the view frustum. This can be done simply by taking the dot product of the players view vector and the chunk direction vector (whic his the chunk position minus the player position)
