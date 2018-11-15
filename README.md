@@ -12,7 +12,7 @@ Several tricks are being employed to reduce the cost of ray casting:
 
 **Performance results**
 
-Setup: i5-6300GQ CPU @ 2.30 Ghz, at 192 blocks view distance and at a field of view of 75 degrees.
+Setup: i5-6300GQ CPU @ 2.30 Ghz, at 192 blocks view distance, 256 block world height and at a field of view of 75 degrees.
 
 Results: 1ms or 1062 traces per frame
  
