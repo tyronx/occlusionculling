@@ -1,4 +1,5 @@
-*Description*
+**Description**
+
 This is a ray casting chunk culling system inspired by Tommos cave culling algorithm for minecraft (https://tomcc.github.io/index.html)
 It is essentially an ray-casting implementation of Tommos "Part 2" which avoids the underculling issues when using a Breadth-First search
 Several tricks are being employed to reduce the cost of ray casting
@@ -9,8 +10,11 @@ Several tricks are being employed to reduce the cost of ray casting
 - Empirical evidence shows that 2 traces per chunk works in almost every case
 
 
-*Performance results*
-1062 traces / 1ms per frame on a i5-6300GQ CPU @ 2.30 Ghz, at 192 blocks view distance and at a field of view of 75 degrees.
+**Performance results**
+
+Setup: i5-6300GQ CPU @ 2.30 Ghz, at 192 blocks view distance and at a field of view of 75 degrees.
+
+Results: 1ms or 1062 traces per frame
  
-<img src="/cullingOff.png" alt="culling off" width="450"/>
-<img src="/cullingOn.png" alt="culling on" width="450"/>
+<img src="/cullingOff.png" alt="culling off" width="400" align="left"/>
+<img src="/cullingOn.png" alt="culling on" width="400" align="left"/>
